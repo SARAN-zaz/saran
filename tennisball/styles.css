@@ -1,0 +1,43 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.ball {
+    width: 150px;
+    height: 150px;
+    background-color: #87e832;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ball::before,
+.ball::after {
+    content: "";
+    position: absolute;
+    width: 180px; /* Slightly larger than the ball for curvature */
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+
+.ball::before {
+    top: 20px;
+    left: -15px;
+    transform: rotate(15deg);
+    border-bottom-right-radius: 50px;
+}
+
+.ball::after {
+    bottom: 20px;
+    left: -15px;
+    transform: rotate(30deg);
+    border-bottom-left-radius:50px; ;
+}

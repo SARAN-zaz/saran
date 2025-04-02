@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+.snowman{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+
+.head{
+    width: 150px;
+    height: 150px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    top: 18px;
+  
+
+
+}
+
+.eye{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.left{
+    top: 50px;
+    left: 30px;
+}
+
+.right{
+    top: 50px;
+    right: 30px
+}
+
+.scarf{
+    width: 125px;
+    height: 23px;
+    background-color: burlywood;
+    border-radius: 30px;
+    z-index: 3;
+   margin-top: -40px;
+}
+
+.body{
+    width: 250px;
+    height: 250px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    z-index: 1;
+    top: 20px;
+}
+
+.hat {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    top: 35px;
+    z-index: 2;
+}
+
+.hat::before {
+    content: "";
+    width: 120px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: -10px;
+}
+
+.hat::after {
+    content: "";
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.rectangle{
+    width: 350px;
+    height: 60px;
+    background-color: brown;
+    z-index: 2;
+
+}

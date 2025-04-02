@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+  
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+  }
+  
+  .main-circle {
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(172, 149, 18);
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  
+  .circle1,.circle2,.circle3{
+  background-color: rgb(40, 60, 15);
+  border-radius: 50%;
+  position: absolute;
+  }
+  
+  
+  .circle1{
+      height: 2rem;
+      width: 2rem;
+      top: 50px;
+      right: 80px;
+
+          
+  }
+  
+  .circle2{
+      height: 3rem;
+      width: 3rem;
+      top: 220px;
+      left: 80px;
+
+  }
+  
+  .circle3{
+      height: 5rem;
+      width: 5rem;
+      top: 65px;
+      left: 40px;
+
+  }
+  .steam1{
+    position: absolute;
+    background-color: rgb(172, 149, 18);
+    width: 20px;
+    height: 150px;
+    border-radius: 10px;
+    top: -140px;
+    left: 50%;
+
+  }
+  .steam2{
+    position: absolute;
+    background-color: rgb(172, 149, 18);
+    width: 20px;
+    height: 90px;
+    border-radius: 10px;
+    bottom: -70px;
+    left: 50%;
+
+  }
+  .steam3{
+    position: absolute;
+    background-color: rgb(172, 149, 18);
+    width: 20px;
+    height: 90px;
+    border-radius: 10px;
+    left: -30px;
+    top: 10%;
+    rotate: -70deg;
+    
+
+  }
+  .steam4{
+    position: absolute;
+    background-color: rgb(172, 149, 18);
+    width: 20px;
+    height: 180px;
+    border-radius: 10px;
+    right: -30px;
+    top: 50%;
+    rotate: -65deg;
+
+  }
+  .steam5{
+    position: absolute;
+    background-color: rgb(172, 149, 18);
+    width: 20px;
+    height: 180px;
+    border-radius: 10px;
+    top: -20px;
+    right: -75px;
+    rotate: 70deg;
+  }
+  .steam6{
+    position: absolute;
+    background-color: rgb(172, 149, 18);
+    width: 20px;
+    height: 90px;
+    border-radius: 10px;
+    bottom: 10px;
+    left: -15px;
+    rotate: 70deg; 
+
+  }
+
+  
+  

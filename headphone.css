@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    background-color: cornflowerblue;
+}
+
+.headphone{
+    width: 100px;
+    height: 100px;
+    border: 10px solid #add8e6;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+    border-bottom: none;
+}
+
+.headphone::before,.headphone::after{
+    content: "";
+    width: 30px;
+    height: 50px;
+    background-color: #add8e6;
+    position: absolute;
+    bottom: -50px;
+    border-radius: 18px;
+    
+
+}
+
+.headphone::before{
+    left: -10px;
+    top: 70px;
+}
+
+.headphone::after{
+    right:-10px;
+    top: 70px;
+}
