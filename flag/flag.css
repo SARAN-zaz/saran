@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    display: flex; 
+}
+
+.flag{
+    width: 500px;
+    height: 350px;
+    background-color: blue;
+    position: relative;
+
+}
+
+.white-horizontal,
+.white-vertical{
+    background-color: white;
+    position: absolute;
+}
+
+.white-horizontal{
+    height:40px;
+    width:100%;
+    top: 173px;
+}
+
+.white-vertical{
+    height: 100%;
+    width: 40px;
+    left: 138px;
+}
+
+.red-horizontal,
+.red-vertical{
+    background-color:red;
+    position: absolute;
+}
+
+.red-horizontal{
+    height: 20px;
+    width: 100%;
+    top: 183px;
+}
+
+.red-vertical{
+    height: 100%;
+    width: 20px;
+    left: 148px;
+}

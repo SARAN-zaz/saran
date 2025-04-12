@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+
+  body {
+    background-color: #121212;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+
+ 
+  
+ 
+  
+ 
+.card-1 {
+    position: relative;
+     background-color: white;
+     width: auto;
+     height: 110px;
+     text-align: center;
+}
+
+.card-2 {
+    position: relative;
+     background-color: white;
+     width: auto;
+     height: 10px;
+     text-align: center;
+}
+
+.card-3 {
+    position: relative;
+     background-color: white;
+     width: auto;
+     height: 610px;
+     text-align: center;
+}
