@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fully Animated Kite</title>
+  <link rel="stylesheet" href="/kite.css">
+</head>
+<body>
+  <div class="kite-wrapper">
+    <svg width="300" height="500" viewBox="0 0 300 500">
+      <defs>
+        <linearGradient id="kiteGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: rgb(0, 255, 98);" />
+          <stop offset="100%" style="stop-color: rgb(0, 0, 255);" />
+        </linearGradient>
+      </defs>
+
+      
+      <polygon points="150,50 250,150 150,250 50,150" fill="url(#kiteGradient)" stroke="black" stroke-width="4" />
+      <line x1="150" y1="50" x2="150" y2="250" stroke="black" stroke-width="3" />
+      <line x1="50" y1="150" x2="250" y2="150" stroke="black" stroke-width="3" />
+      <line x1="150" y1="250" x2="150" y2="280" stroke="url(#kiteGradient)" stroke-width="4" />
+
+      
+      <path id="kiteString"
+            d="M150 280 Q130 330, 140 370 Q160 410, 120 460"
+            fill="none" stroke="black" stroke-width="2" stroke-dasharray="5,5">
+        <animate attributeName="d"
+                 values="
+                   M150 280 Q130 330, 140 370 Q160 410, 120 460;
+                   M150 280 Q125 340, 145 375 Q155 415, 125 455;
+                   M150 280 Q130 330, 140 370 Q160 410, 120 460"
+                 dur="4s"
+                 repeatCount="indefinite" />
+      </path>
+
+      
+        
+    </svg>
+  </div>
+</body>
+</html>

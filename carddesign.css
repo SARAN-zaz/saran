@@ -1,44 +1,62 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-  }
 
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
 
-  body {
-    background-color: #121212;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-  }
+    .container {
+      display: flex;
+      gap: 20px;
+    }
 
+    .card {
+      background: #fff;
+      width: 250px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+    }
 
- 
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .content small {
+      color: #999;
+    }
+
+    .content h3 {
+      margin: 10px 0;
+    }
+
+    .content p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 20px;
+      color: white;
+      font-size: 13px;
+    }
+
+    .footer.pink { background: #e91e63; }
+    .footer.orange { background: #ff5722; }
+    .footer.green { background: #4caf50; }
   
- 
-  
- 
-.card-1 {
-    position: relative;
-     background-color: white;
-     width: auto;
-     height: 110px;
-     text-align: center;
-}
-
-.card-2 {
-    position: relative;
-     background-color: white;
-     width: auto;
-     height: 10px;
-     text-align: center;
-}
-
-.card-3 {
-    position: relative;
-     background-color: white;
-     width: auto;
-     height: 610px;
-     text-align: center;
-}

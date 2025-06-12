@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Move Square with CSS</title>
+  <style>
+    .square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: relative;
+      animation-name: moveRight;
+      animation:  3s linear;
+    }
+    body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+    @keyframes moveRight {
+      from {
+    transform: translateX(0) translateY(0);
+  }
+
+  to {
+    transform: translateX(350px) translateY(350px);
+  }
+    }
+  </style>
+</head>
+<body>
+  <div class="square"></div>
+</body>
+</html>
